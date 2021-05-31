@@ -8,7 +8,7 @@ from scrapy_selenium import SeleniumRequest
 
 
 class V3Spider(scrapy.Spider):
-    name = 'v_3'
+    name = 'scrape'
     allowed_domains = ['www.thebluebook.com']
     website_key = '6LcVPAcUAAAAAFfXArD3YoSWjJbmcc0a38J6fM6A'
     captcha = NoCaptchaTaskProxyless(client_key='###########')
