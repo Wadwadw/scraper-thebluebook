@@ -7,4 +7,4 @@ Hi, this scraper get information from site thebluebook.com with help framework S
 4. Activate it `source venv/bin/activate`
 5. Install all the packages `pip install -r requirements.txt`
 6. In file project1/project1/spiders/scrape.py in line 14 change capmonster client key
-7. Start scraper script scrapy crawl scrape -o results.csv
+7. Start scraper script `scrapy crawl scrape -o results.csv`
